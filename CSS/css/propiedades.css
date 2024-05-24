@@ -1,0 +1,113 @@
+/** Selector Universal**/
+
+* {
+    color: brown;
+}
+
+p {
+    /*
+        backgroud color: cornflewerbleu
+        backgroud color: rgb
+        backgroud color:hsl
+        backgroud color:rgba
+    */
+    background-color: rgb(129, 127, 255);
+    font-size: 30px;
+    font-weight: 900;
+    
+    /* Para definir bordes de la caja de texto se utiliza la propiedad "border"*/
+    /*
+    boder-width: 1px;  me da el ancho del borde
+    boder-color: black;  para colocar el color de ese borde
+    border-style: double;  para colocar el estilo del borde
+
+    Hay una forma para no estar colocando 3 lineas de còdigo
+    con el siguiente atajo para hacer el borde mas rapido que
+    de una vez designa anchura, estilo y color:
+    */
+    
+    border: 1px solid black;
+
+    /* Si queremos modificar el ancho de la caja del texto*/
+    width: 200px;
+
+    /*distancia entre un elemento y otro:
+    margin: 50px;*/
+    
+    /* Tambien se puede hacer de manera directa indicando los margenes en los cuatro lados
+    se ubican en el sentido de las agujas del reloj*/
+    margin: 30px 0 30px 20px;
+    
+    /* Si queremos que los bordes sean curvos y no cuadrados
+    border-radius: 35px*/
+    border-radius: 35px;
+
+    /* Para alejar el texto del borde de la caja*/
+    padding: 10px;
+    outline: 20px solid green;
+
+    /*Textos: en las paginas web no es conveniente colocar textos justificados, es mejor centrarlos*/
+    text-align: center;
+
+    /*Para decorar texots: linea subrayada, en el medio, etc *, se puede manejar el color de esa decoracion*/
+    text-decoration: underline green 10px;
+    text-decoration-color: black;
+     /*Transformacion de texto: para que siempre salga mayuscula, minuscula o capitalizado* 
+     lowecase o capitaliza*/
+     text-transform: uppercase;
+     
+     /*Espaciados: entre, letras, palabras */
+     letter-spacing: 12px;
+     word-spacing: 10px;
+     text-shadow: 2px 2px 2px black;
+
+     /*Tipo de letra*, si quiero que el tipo de letera especifico aparezca en toda la pagina
+     se debe colocar arriba en el sector univarsal*/
+     font-family: 'montserrat', sans-serif;
+}
+
+p:hover{
+    background-color: purple;
+    }
+/* PSEUDO CLASES: */
+/*Color cuando YA visité el link*/
+a:visited{
+    color: aquamarine;
+}
+
+/* Color cuando no he visitado el link*/
+a: link{
+    color: blueviolet;
+}
+/*Color cuando doy click en el Link*/   
+a:active{
+    color: cadetblue;
+}
+
+/* PSEUDO ELEMENTOS: Manejan una parte especifica del elemento */
+
+p::first-letter{
+    font-size: 35px;
+}
+
+p::first-line{
+    color: chocolate;
+}
+
+p::after{
+    content: ("Adios");
+}
+
+p::before{
+    content:"Hola"
+}
+body{
+    background-image: url(https://previews.123rf.com/images/izakowski/izakowski1405/izakowski140500094/28459274-ilustraci%C3%B3n-de-dibujos-animados-de-perro-triste-lindo-perrito-o.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /**background-position: center */;
+}
+/*
+https://previews.123rf.com/images/izakowski/izakowski1405/izakowski140500094/28459274-ilustraci%C3%B3n-de-dibujos-animados-de-perro-triste-lindo-perrito-o.jpg
+
+"https://www.elsoldetijuana.com.mx"*/

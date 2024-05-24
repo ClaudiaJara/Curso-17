@@ -1,0 +1,30 @@
+
+.contenedor {
+
+    display: flex;
+    justify-content: center;
+    background: blue;
+    align-items: center;
+    
+    padding: 85px 5px;
+}
+
+.colunma1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    background-color: red;
+    
+    
+
+}
+
+.colunma2 {
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    color: beige;
+    
+}
+

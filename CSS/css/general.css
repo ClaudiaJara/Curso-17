@@ -1,0 +1,23 @@
+/* para aplicar colores en HTML **/
+/** ID **/
+#destacado {
+    color: blue;
+}
+
+/** Clase **/
+.subtitulo {
+    color: green;
+}
+
+/**Etiqueta HTML **/    
+
+p {
+    color: red;
+}
+
+.articulo h2 {
+    color: purple
+}
+.articulo p {
+    color: brown
+}

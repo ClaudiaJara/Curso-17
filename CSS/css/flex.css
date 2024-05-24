@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fila{
+    display: flex;
+}   
+
+/*Eje primario, display flex funciona originalmente como una fila
+justify-content: space-between;
+/*Eje secundario
+    align-items: center;
+
+/* Para alejar cada elemento uno del otro usamos:
+    gap: 20px*/
+
+.columna{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo{
+    border-radius: 100%;
+    width: 10px;
+}

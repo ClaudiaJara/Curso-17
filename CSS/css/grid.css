@@ -1,0 +1,26 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    /*Horizontal*/
+    justify-items: center;
+    /*Vertical*/
+    align-items: center;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+/* el grid puede manejarse con fr (ejemplo 1fr 1fr 1fr  o con %*
+se pueden crear tantas columnas querramos con (repet (3, 1fr)) es decir de una se 
+crean 3 columnas de una fraccion.
+
+podemos usar gap con display: grid*/
+
+.info {
+    display: grid;
+    grid-template-columns: 33% 67%;
+}
